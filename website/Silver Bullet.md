@@ -103,7 +103,7 @@ To run Silver Bullet, create a folder for your pages (it can be empty, or be an 
 silverbullet <pages-path>
 ```
 
-By default, Silver Bullet will bind to port `3000` on all interfaces. To specify a different address or port to listen on, use the the `--hostname` and `--port` flags. By default Silver Bullet is unauthenticated, to password-protect it, specify a password with the `--password` flag.
+By default, Silver Bullet will bind to port `3000` on all interfaces. To specify a different address or port to listen on, use the the `--hostname` and `--port` flags. The `--hostname` option can take a name or an IP address, and the default `0.0.0.0` means all IPv4 addresses, which is convenient if you trust all computers on your local network. Use `localhost` if you only need local access. By default Silver Bullet is unauthenticated, to password-protect it, specify a password with the `--password` flag.
 
 Once downloaded and booted, Silver Bullet will print out a URL to open SB in your browser (by default this will be http://localhost:3000 ).
 

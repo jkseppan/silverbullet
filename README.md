@@ -82,7 +82,12 @@ silverbullet <pages-path>
 
 By default, SB will bind to port `3000` on all interfaces. To specify a
 different address or port to listen on, use the `--hostname` and `--port`
-options. By default SB doesn’t offer any sort of authentication, to add
+options. The `--hostname` option can take a name or an IP address, and
+the default `0.0.0.0` means all IPv4 addresses, which is convenient if you
+trust all computers on your local network. Use `localhost` if you only
+need local access.
+
+By default SB doesn’t offer any sort of authentication, to add
 basic password authentication, pass the `--password` flag.
 
 Once downloaded and booted, SB will print out a URL to open SB in your browser
